@@ -7,7 +7,7 @@ parser = argparse.ArgumentParser(description='MSPN')
 # Dataset
 parser.add_argument('--dir_data',
                     type=str,
-                    default='/media/jyjun/b40d9ff6-71a9-42f6-9a4b-222e2ab503bb/y2024_CVPR/dataset_DC/kitti_depth/',
+                    default='dataset/kitti_depth/',
                     help='path to dataset')
 parser.add_argument('--data_name',
                     type=str,
