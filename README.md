@@ -39,7 +39,7 @@ Ubuntu 22.04, PyTorch 1.10.1, CUDA 11.3, Python 3.8, [Natten](https://shi-labs.c
 ```
 cd root
 python test_NYU.py
-python test_kittidc.py
+python test_KITTIDC.py
 ```
 6. Trained models on conventional depth completion will be released soon.
 
