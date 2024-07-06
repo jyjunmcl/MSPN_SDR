@@ -10,7 +10,7 @@ Ubuntu 22.04, PyTorch 1.10.1, CUDA 11.3, Python 3.8, [Natten](https://shi-labs.c
 
 ### Instructions
 1. [Download](https://drive.google.com/drive/folders/1OerU4xdDo9ZT5Gk-gsRKcUPEJqWkdRyH?usp=drive_link) the pretrained models and monocualr depth estimation results.
-2. Move pretrained models to ```test_models``` folder
+2. Move trained models to ```test_models``` folder and move ``pretrained.zip`` to ``lib`` folder and unzip
 3. For NYUv2, move ``nyudepthv2_SDR.zip`` file to ``dataset`` folder and unzip the file.
 4. For KITTI, download the [KITTI DC](https://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_completion) and [KITTI RAW](https://www.cvlibs.net/datasets/kitti/raw_data.php) datasets, and move ``data_depth_velodyne_NewCRFs.zip`` file to directory as follows:
 ```
