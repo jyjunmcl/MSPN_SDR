@@ -41,7 +41,6 @@ cd root
 python test_NYU.py
 python test_KITTIDC.py
 ```
-6. Trained models on conventional depth completion will be released soon.
 
 ### Acknowledgement
 Thanks for the authors of [CompletionFormer](https://github.com/youmi-zym/CompletionFormer), opening the source of their work.
