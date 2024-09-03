@@ -39,7 +39,7 @@ parser.add_argument('--seed',
                     help='random seed point')
 parser.add_argument('--gpus',
                     type=str,
-                    default="1",
+                    default="0",
                     help='visible GPUs')
 parser.add_argument('--port',
                     type=str,
@@ -182,7 +182,7 @@ parser.add_argument('--save_image',
                     help='save images for test')
 parser.add_argument('--save_result_only',
                     action='store_true',
-                    default=True,
+                    default=False,
                     help='save result images only with submission format')
 parser.add_argument('--save_result_npy',
                     action='store_true',
