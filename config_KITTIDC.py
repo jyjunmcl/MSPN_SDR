@@ -188,7 +188,7 @@ parser.add_argument('--save_image',
                     help='save images for test')
 parser.add_argument('--save_result_only',
                     action='store_true',
-                    default=True,
+                    default=False,
                     help='save result images only with submission format')
 parser.add_argument('--save_result_npy',
                     action='store_true',
